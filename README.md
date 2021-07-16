@@ -6,3 +6,5 @@
 - [ ] Team member profiles
 - [ ] Responsive outline
 - [ ] Navigation
+- [ ] Publicly accessible domain name
+- [ ] 
