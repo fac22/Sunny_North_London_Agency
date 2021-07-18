@@ -1,0 +1,21 @@
+/* still to decide */
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.maincontainer {
+    width: 75%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+}
+.sectioncontainer {
+    padding: 2em;
+}
+
+footer {
+    width: 75%;
+    padding: 2.5em;
+}
