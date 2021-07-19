@@ -3,7 +3,7 @@
 ## User stories
 
 - [x] Agency name - JP and SB
-- [ ] Team member profiles - outline/layout: SB, content: JP and SB
+- [x] Team member profiles - outline/layout: SB, content: JP and SB
 - [ ] Responsive outline - SB
 - [ ] Navigation - JP
 - [ ] Publicly accessible domain name - JP
