@@ -1,4 +1,8 @@
 /* still to decide */
+
+:root {
+  --nav-font-colour: rgb(44, 40, 40);
+}
 body {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -13,6 +17,15 @@ body {
 .navigation__menu {
   list-style: none;
 }
+
+.nav__link {
+  color: var(--nav-font-colour);
+  text-decoration: none;
+}
+.nav__link:visited {
+  color: var(--nav-font-colour);
+}
+
 .maincontainer {
   width: 75%;
   display: flex;
