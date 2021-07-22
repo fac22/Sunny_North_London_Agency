@@ -4,9 +4,7 @@
   --nav-font-colour: rgb(44, 40, 40);
 }
 body {
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navigation__container {
@@ -32,12 +30,27 @@ body {
   flex-flow: column nowrap;
   justify-content: space-around;
   /* align-items: flex-end; */
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.headercontainer {
+  background-image: url(/media/vulpe-gri-B-xx3i5YGJc-unsplash_c.jpg);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  padding: 2em;
+}
+
 .sectioncontainer {
   padding: 2em;
 }
 
-footer {
+.footer {
   width: 75%;
   padding: 2.5em;
+}
+
+.footer img {
+  height: 1.25em;
 }
