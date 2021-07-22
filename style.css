@@ -2,9 +2,14 @@
 
 :root {
   --nav-font-colour: rgb(44, 40, 40);
+  --light-blue-colour: #00acee;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navigation__container {
@@ -18,7 +23,6 @@ body {
 
 .nav__link {
   color: var(--nav-font-colour);
-  text-decoration: none;
 }
 .nav__link:visited {
   color: var(--nav-font-colour);
@@ -51,6 +55,24 @@ body {
   padding: 2.5em;
 }
 
-.footer img {
-  height: 1.25em;
+.sn__container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.sn__list {
+  list-style: none;
+  display: flex;
+  flex: row;
+  margin: 0 7px 0 0;
+}
+
+.sn__list a:visited {
+  color: var(--nav-font-colour);
+}
+
+.sn__list i {
+  color: #00acee;
+  margin-right: 5px;
 }
