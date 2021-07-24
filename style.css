@@ -50,6 +50,10 @@ a {
   padding: 2em;
 }
 
+.form__team {
+  margin-top: 3rem;
+}
+
 label {
   width: 5rem;
   float: left;
