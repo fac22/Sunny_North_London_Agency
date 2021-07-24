@@ -45,10 +45,11 @@ a {
 }
 
 .img__penguin {
+  display: block;
   border: solid 1px red;
   border-radius: 50%;
-  width: 45%;
-  margin: auto;
+  width: 40%;
+  margin: 10px auto 5px auto;
 }
 
 .headercontainer {
