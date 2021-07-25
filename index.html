@@ -7,7 +7,7 @@
     <title>Sunny North London Agency</title>
     <link rel="icon" type="image/png" href="/media/trees.png" />
     <link href="style.css" rel="stylesheet" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/f9ad104398.js"
       crossorigin="anonymous"
@@ -112,7 +112,8 @@
             <br />
             <br />
             <label for="team_email">Email</label>
-            <input type="email" />
+            <input id="team_email" type="email" required />
+            <span class="email_validation"></span>
           </p>
           <p><button class="btn__add">Add Member</button></p>
         </section>
