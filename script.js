@@ -17,3 +17,19 @@ function emailValidation() {
     email_span.textContent = 'Email is invalid!';
   }
 }
+
+// password checker
+const btn_password = document.querySelector('#btn__password');
+const team_password = document.querySelector('#team__password');
+const password_span = document.querySelector('.team__password--checker');
+
+btn_password.addEventListener('click', checkPassword);
+
+function checkPassword() {
+  const password = 'jisa987!';
+  if (team_password.value !== password) {
+    password_span.textContent = 'Check your password again!';
+  } else {
+    password_span.textContent = 'Correct!';
+  }
+}
