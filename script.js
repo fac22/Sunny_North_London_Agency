@@ -33,3 +33,18 @@ function checkPassword() {
     password_span.textContent = 'Correct!';
   }
 }
+
+// check description length
+const textarea = document.querySelector('#team__description');
+const textarea_check = document.querySelector('.textarea__length--check');
+
+textarea.addEventListener('change', checkTextLength);
+function checkTextLength() {
+  let text_length = textarea.value.length;
+  if (text_length > 200) {
+    textarea.style.border = 'solid 2px red';
+    textarea_check.textContent = 'Too long!';
+  } else {
+    textarea.style.border = 'solid 2px green';
+  }
+}
