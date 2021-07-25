@@ -68,6 +68,19 @@ a {
   padding: 2em;
 }
 
+.form__team {
+  margin-top: 3rem;
+}
+
+label {
+  width: 5rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.btn__add {
+}
+
 .footer {
   flex: 0 0 50px;
   min-height: 10%;

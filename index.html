@@ -7,7 +7,7 @@
     <title>Sunny North London Agency</title>
     <link rel="icon" type="image/png" href="/media/trees.png" />
     <link href="style.css" rel="stylesheet" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/f9ad104398.js"
       crossorigin="anonymous"
@@ -25,114 +25,103 @@
           </li>
           <li class="navigation__menu">
             <a href="#" class="nav__link">Our Services</a>
-          </li>
-          <li class="navigation__menu">
-            <a href="#" class="nav__link">Our Team</a>
-          </li>
-          <li class="navigation__menu">
-            <a href="#" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <section class="headercontainer">
-        <h1>Sunny North London Agency</h1>
-      </section>
-    </header>
+            </li>
+          </ul>
+        </nav>
+        <section class="headercontainer">
+          <h1>Sunny North London Agency</h1>
+        </section>
+      </header>
+      <main>
+        <section class="sectioncontainer">
+          <h2>About us</h2>
+          <p>
+            Sunny North London Agency is a digital design and development
+            bureau. While we are based in North London we have a global outlook
+            and like to work with clients across the world.
+          </p>
+          <h3>What we do</h3>
+          <p>
+            We review your business and communication needs and collaborate with
+            you to develop digital products that will help achieve your business
+            and communications goals.
+          </p>
+          <h3>Meet the team</h3>
+          <p>
+            At the moment we are a two-person team, Ji and Saira, both based in
+            North London.
+          </p>
+          <h4>Ji</h4>
 
-    <main>
-      <section class="about">
-        <h2>About us</h2>
-        <p>
-          Sunny North London Agency is a digital design and development bureau.
-          While we are based in North London we have a global outlook and like
-          to work with clients across the world.
-        </p>
-      </section>
-      <section class="wedo">
-        <h2>What we do</h2>
-        <p>
-          We review your business and communication needs and collaborate with
-          you to develop digital products that will help achieve your business
-          and communications goals.
-        </p>
-      </section>
+          <p>
+            Jihye builds navigational stuctures for websites and makes sure
+            webpages are accessible to the public. She developed her coding
+            skills with the team from Founders and coders and her dedicated
+            cohort, FAC22
+          </p>
+          <p>
+            Her ultimate aim of creating websites is to help businesses to
+            achieve their digital goals.
+          </p>
+          <p>
+            Previously she worked for a South Korean Government Agency where she
+            helped Korean SMEs to expand their horizons.
+          </p>
+          <h4>Saira</h4>
+          <p>
+            Building responsive website applications using HTML, CSS and
+            JavaScript. Studied with the Founders and Coders cohort 22.<br />
+            Passionate about sustainability and finding technology and non-tech
+            solutions to problems.<br />
+            Previous background in research and data analysis covering a broad
+            range of sectors.<br />
+            For projects see
+            <a
+              href="https://sbhatti534602210.github.io/facwork/javascript30/js30exercises.html"
+              >portfolio page</a
+            >.
+          </p>
+          <p class="form__team">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+            <br />
+            <br />
 
-      <section class="ourteam">
-        <h2>Our team</h2>
-        <p>
-          At the moment we are a two-person team, Ji and Saira, both based in
-          North London.
-        </p>
-        <div class="team">
-          <div class="team__member">
-            <p class="team__member--name">Jihye</p>
-            <img src="/media/penguin.png" alt="penguin character" /
-            class="img__penguin">
-            <p>
-              builds navigational stuctures for websites and makes sure webpages
-              are accessible to the public.
-            </p>
-            <p>
-              She developed her coding skills with the team from Founders and
-              coders and her dedicatedcohort, FAC22. Her ultimate aim of
-              creating websites is to help businesses to achieve their digital
-              goals.
-            </p>
-            <p>
-              Previously she worked for a South Korean Government Agency where
-              she helped Korean SMEs to expand their horizons.
-            </p>
-            <p>
-              <a href="https://jijip41.github.io/Ji-Projects-Gallery/"
-                >Jihye's projects gallery</a
-              >
-            </p>
-          </div>
-          <div class="team__member">
-            <p class="team__member--name">Saira</p>
-            <div>
-              <img src="/media/penguin.png" alt="penguin character" /
-              class="img__penguin">
-            </div>
-            <p>
-              Building responsive website applications using HTML, CSS and
-              JavaScript. Studied with the Founders and Coders cohort 22.
-            </p>
-            <p>
-              Passionate about sustainability and finding technology and
-              non-tech solutions to problems.
-            </p>
-            <p>
-              Previous background in research and data analysis covering a broad
-              range of sectors.
-            </p>
-            <p>
-              For projects see
-              <a
-                href="https://sbhatti534602210.github.io/facwork/javascript30/js30exercises.html"
-              >
-                portfolio page
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <p>@copyright 2021 by Sunny North London Agency.</p>
-      <ul class="sn__container">
-        <li class="sn__list">Find us on social media:</li>
-        <li class="sn__list">
-          <a href="https://twitter.com/codering2"
-            ><i class="fab fa-twitter"></i>@codering2</a
-          >
-        </li>
-        <li class="sn__list">
-          <a href="https://twitter.com/jihye_pak"
-            ><i class="fab fa-twitter"></i>@jihye_pak</a
-          >
-        </li>
-      </ul>
-    </footer>
+            <label for="description">Description:</label>
+            <textarea
+              name="description"
+              id="team__description"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <span class="textarea__length--check"></span>
+            <br />
+            <br />
+            <label for="img">Image file:</label>
+            <input type="file" id="img" />
+            <br />
+            <br />
+            <label for="team_password">Password</label>
+            <input type="" id="team__password" />
+            <button id="btn__password">Check</button>
+            <span class="team__password--checker"></span>
+            <br />
+            <br />
+            <label for="team_email">Email</label>
+            <input id="team_email" type="email" required />
+            <span class="email_validation"></span>
+          </p>
+          <p><button class="btn__add">Add Member</button></p>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>@copyright 2021 by Sunny North London Agency.</p>
+        <ul class="sn__container">
+          <li class="sn__list">Find us on social media:</li>
+          <li class="sn__list">
+            <a href="https://twitter.com/codering2"
+              ><i class="fab fa-twitter"></i>@codering2</a
+            >
+          </footer>
   </body>
 </html>
