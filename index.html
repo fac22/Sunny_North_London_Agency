@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunny North London Agency</title>
-    <link rel="icon" type="image/png" href="/media/trees.png" />
+    <link rel="icon" type="image/png" href="media/trees.png" />
     <link href="style.css" rel="stylesheet" />
     <script src="script.js" defer></script>
     <script
@@ -113,6 +113,54 @@
             <span class="email_validation"></span>
           </p>
           <p><button class="btn__add">Add Member</button></p>
+        </section>
+        <section>
+<h3>Client work request form</h3>
+<form>
+  <label for="clientname">Client name</label>
+  <textarea
+    id="clientname"
+    name="clientname"
+    placeholder="enter your name or company name"
+    rows="1"
+    cols="50"
+  ></textarea>
+
+  <label for="clientemail">Client email address</label>
+  <textarea
+    id="clientemail"
+    name="clientemail"
+    placeholder="enter a valid email"
+    rows="1"
+    cols="50"
+  ></textarea>
+  <p class="checkemail"></p>
+
+  <label for="workrequest">Work request</label>
+  <textarea id="workrequest" name="work" rows="5" cols="50">
+Enter a brief summary of the work you would like us to carry out.
+(Maximum length 300 characters.)</textarea
+  >
+  <p class="checkwr"></p>
+
+  <label for="verifyrobot"
+    >Please type in the following phrase to verfiy you are not a
+    robot:</label
+  >
+  <p class="verifystring">[verification phrase...]</p>
+  <textarea
+    id="verifyrobot"
+    name="verifyrobot"
+    placeholder="enter the phrase  above"
+    rows="1"
+    cols="50"
+  ></textarea>
+  <p class="verified"></p>
+  <button id="submitWR">Submit work request</button>
+</form>
+<p></p>
+<!-- <p class="confirmrequest"></p> -->
+
         </section>
       </main>
       <footer class="footer">
