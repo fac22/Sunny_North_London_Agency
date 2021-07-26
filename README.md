@@ -31,8 +31,8 @@ from [Project outline 1](https://learn.foundersandcoders.com/course/syllabus/pre
 
 - [ ] Input my name, email address and a description of the job to complete - SB
 - [ ] Input a short phrase, listed on the page, to verify I am not a robot - SB
-- [ ] Input the name, an image of, and description of the new team member - JP
-- [ ] Input an admin password and see if this has been accepted or rejected - JP
+- [x] Input the name, an image of, and description of the new team member - JP
+- [x] Input an admin password and see if this has been accepted or rejected - JP
 - [ ] Navigate your website using keyboard controls - SB
 - [ ] Hear my screen reader describe the content on your website - JP
 
@@ -40,8 +40,8 @@ from [Project outline 1](https://learn.foundersandcoders.com/course/syllabus/pre
 
 - [ ] Be notified if my email address doesn’t look right - SB
 - [ ] Be notified if the request I’m writing is too long - SB
-- [ ] Be notified if the email address doesn’t look right - JP
-- [ ] Be notified if the description I’m writing is too long - JP
+- [x] Be notified if the email address doesn’t look right - JP
+- [x] Be notified if the description I’m writing is too long - JP
 
 ### Stage two, E3
 
@@ -61,8 +61,8 @@ from [Project outline 2](https://learn.foundersandcoders.com/course/syllabus/pre
 
 ### Stage two
 
-- [ ] Input boxes for name, email and description
-- [ ] Input box for the admin password
+- [x] Input boxes for name, email and description
+- [x] Input box for the admin password
 - [ ] Visible feedback when inputs are not valid
 - [ ] A submit button
 - [ ] A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
