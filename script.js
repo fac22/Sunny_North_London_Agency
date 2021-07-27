@@ -119,7 +119,7 @@ const robotoutput = document.querySelector('.verifystring');
 robotoutput.innerHTML = robotString;
 
 // get also where the warnings will be written
-const confirmedrequest = document.querySelector(".confirmrequest"); // only used when using innerHTML
+const confirmedrequest = document.querySelector('.confirmrequest'); // only used when using innerHTML
 const checkedemail = document.querySelector('.checkemail');
 const checkedwrlength = document.querySelector('.checkwr');
 const verifiedrobot = document.querySelector('.verified');
@@ -160,13 +160,11 @@ submitBtn.addEventListener('click', function () {
     if (ul) {
       submitBtn.insertAdjacentElement('afterend', ul);
     }
+  } else {
+    confirmedrequest.innerHTML =
+      'Please check highlighted form fields and retry.';
   }
-  else {
-    confirmedrequest.innerHTML = "Please check highlighted form fields and retry.";
-  }
-  }
-  );
-
+});
 
 // validator functions
 // check email name@domain.com/co.uk/etc using regex set above
@@ -233,3 +231,30 @@ function generateWRDescription(wrArray) {
 }
 // use style sheet to remove the bullets
 
+// jump link
+
+const about_link = document.querySelector('.nav__link--about');
+const service_link = document.querySelector('.nav__link--service');
+const team_link = document.querySelector('.nav__link--team');
+const contact_link = document.querySelector('.nav__link--contact');
+
+const about_section = document.querySelector('.about');
+const service_section = document.querySelector('.service');
+const team_section = document.querySelector('.team');
+const contact_section = document.querySelector('.form_2');
+
+about_link.addEventListener('click', (e) => {
+  about_section.scrollIntoView();
+});
+service_link.addEventListener('click', (e) => {
+  service_section.scrollIntoView();
+});
+team_link.addEventListener('click', (e) => {
+  team_section.scrollIntoView({
+    behavior: 'auto',
+    inline: 'nearest',
+  });
+});
+contact_link.addEventListener('click', (e) => {
+  contact_section.scrollIntoView();
+});
