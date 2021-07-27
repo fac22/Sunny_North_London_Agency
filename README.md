@@ -65,5 +65,5 @@ from [Project outline 2](https://learn.foundersandcoders.com/course/syllabus/pre
 - [x] Input box for the admin password
 - [x] Visible feedback when inputs are not valid
 - [x] A submit button
-- [ ] A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
+- [x] A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
 - [x] Information from the form appears on the page after clicking submit
