@@ -29,23 +29,23 @@ from [Project outline 1](https://learn.foundersandcoders.com/course/syllabus/pre
 
 ### Stage two, E1
 
-- [ ] Input my name, email address and a description of the job to complete - SB
-- [ ] Input a short phrase, listed on the page, to verify I am not a robot - SB
+- [x] Input my name, email address and a description of the job to complete - SB
+- [x] Input a short phrase, listed on the page, to verify I am not a robot - SB
 - [x] Input the name, an image of, and description of the new team member - JP
 - [x] Input an admin password and see if this has been accepted or rejected - JP
-- [ ] Navigate your website using keyboard controls - SB
+- [x] Navigate your website using keyboard controls - SB
 - [ ] Hear my screen reader describe the content on your website - JP
 
 ### Stage two, E2
 
-- [ ] Be notified if my email address doesn’t look right - SB
-- [ ] Be notified if the request I’m writing is too long - SB
+- [x] Be notified if my email address doesn’t look right - SB
+- [x] Be notified if the request I’m writing is too long - SB
 - [x] Be notified if the email address doesn’t look right - JP
 - [x] Be notified if the description I’m writing is too long - JP
 
 ### Stage two, E3
 
-- [ ] See my request on the page once I click a button - SB
+- [x] See my request on the page once I click a button - SB
 - [ ] See the new member on the page once I click a button - JP
 
 from [Project outline 2](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/#core-stories)
@@ -63,7 +63,7 @@ from [Project outline 2](https://learn.foundersandcoders.com/course/syllabus/pre
 
 - [x] Input boxes for name, email and description
 - [x] Input box for the admin password
-- [ ] Visible feedback when inputs are not valid
-- [ ] A submit button
+- [x] Visible feedback when inputs are not valid
+- [x] A submit button
 - [ ] A user cannot submit a form without filling out all of the mandatory fields (name, email address, request)
-- [ ] Information from the form appears on the page after clicking submit
+- [x] Information from the form appears on the page after clicking submit
