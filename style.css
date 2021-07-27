@@ -46,8 +46,20 @@ a {
   grid-column-gap: 3rem;
 }
 
+.team__member {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgb(187, 212, 187, 0.2),
+    0 5px 10px rgb(147, 180, 187, 0.4);
+}
+
 .team__member--name {
   text-align: center;
+}
+
+.team__member p {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .img__penguin {
@@ -76,12 +88,15 @@ a {
   align-items: center;
 }
 
-.form1,
-.form2 {
+.form_1,
+.form_2 {
   display: block;
-  width: 45%;
+  width: 100%;
   margin: auto;
-  border: solid 1px black;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(200, 27, 20, 0.2),
+    0 5px 10px rgba(201, 179, 189, 0.4);
 }
 
 .form__team {
