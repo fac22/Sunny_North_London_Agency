@@ -71,8 +71,9 @@ a {
 
 .form {
   display: flex;
-  border-top: solid 1px black;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .form1,
@@ -80,6 +81,7 @@ a {
   display: block;
   width: 45%;
   margin: auto;
+  border: solid 1px black;
 }
 
 .form__team {
