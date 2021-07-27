@@ -46,7 +46,7 @@ from [Project outline 1](https://learn.foundersandcoders.com/course/syllabus/pre
 ### Stage two, E3
 
 - [x] See my request on the page once I click a button - SB
-- [ ] See the new member on the page once I click a button - JP
+- [x] See the new member on the page once I click a button - JP
 
 from [Project outline 2](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/#core-stories)
 
