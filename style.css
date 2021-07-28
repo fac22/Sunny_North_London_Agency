@@ -1,11 +1,9 @@
-/* still to decide */
-
 :root {
   --nav-font-colour: rgb(44, 40, 40);
   --light-blue-colour: #00acee;
 }
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 75%;
   display: flex;
   flex-direction: column;
@@ -76,7 +74,7 @@ a {
 }
 
 .headercontainer {
-  background-image: url(/media/vulpe-gri-B-xx3i5YGJc-unsplash_c.jpg);
+  /* background-image: url(/media/vulpe-gri-B-xx3i5YGJc-unsplash_c.jpg); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
   padding: 2em;
@@ -145,9 +143,8 @@ label {
   margin-right: 5px;
 }
 
-/* SB: still to add additional style for ul */
-/* Style for form */
-input:not([type='checkbox']):not([type='radio']),
+/* Additional style for client form */
+input:not([type="checkbox"]):not([type="radio"]),
 button,
 textarea {
   font: inherit;
@@ -159,9 +156,15 @@ textarea {
   padding: 0.5rem;
 }
 
-[aria-invalid='true'] {
+[aria-invalid="true"] {
   box-shadow: 0 0 0 3px red;
 }
-[aria-invalid='false'] {
+[aria-invalid="false"] {
   box-shadow: 0 0 0 3px green;
+}
+
+/* to highlight the alert */
+.confirmrequest {
+  font-weight: bold;
+  color: red;
 }
