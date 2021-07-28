@@ -168,7 +168,6 @@
               cols="50"
             ></textarea>
             <br />
-            <br />
             <label for="clientemail">Client email address:</label>
             <textarea
               id="clientemail"
@@ -181,20 +180,18 @@
             <br />
 
             <label for="workrequest">Work request:</label>
-            <textarea id="workrequest" name="work"               cols="30"
-            rows="10">
-  Enter a brief summary of the work you would like us to carry out.
-  (Maximum length 300 characters.)</textarea
+            <textarea id="workrequest" name="work"
+            rows="10"
+            cols="50">Enter a brief summary of the work you would like us to carry out. (Maximum length 300 characters.)</textarea
             >
             <p class="checkwr"></p>
-            <br />
             <br />
             <label for="verifyrobot" class="robot__request"
               >Please type in the following phrase to verfiy you are not a
               robot:</label
             >
             <br/>
-            <br/>
+            <br />
             <p class="verifystring">[verification phrase...]</p>
             <textarea
               id="verifyrobot"
@@ -205,11 +202,12 @@
             ></textarea>
             <p class="verified"></p>
             <button id="submitWR" type="button">Submit work request</button>
+            <p></p>
+            <p class="confirmrequest"></p>
           </form>
         </div>
 
-        <p></p>
-        <p class="confirmrequest"></p>
+
       </section>
     </main>
     <footer class="footer">

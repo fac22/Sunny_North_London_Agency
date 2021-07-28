@@ -179,7 +179,7 @@ function validateCEmail(address) {
     isValidEmail = false;
   }
   checkedemail.innerHTML = cemailinput.value + validornot;
-  return isValidEmail;
+ return isValidEmail;
 }
 
 // check length of work request which is set above
@@ -219,6 +219,7 @@ function generateWRDescription(wrArray) {
   // confirmedrequest.innerHTML = requestDetails;
   console.dir(wrArray);
   const ulelement = document.createElement('ul');
+  ulelement.style.listStyleType= "none";
   console.log(ulelement);
   wrArray.forEach((element) => {
     console.log(element);
@@ -229,7 +230,7 @@ function generateWRDescription(wrArray) {
   });
   return ulelement;
 }
-// use style sheet to remove the bullets
+
 
 // jump link
 
