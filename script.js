@@ -76,6 +76,7 @@ function createInfo() {
   let uploadImg = document.createElement('img');
   let reader = new FileReader();
   uploadImg.setAttribute('class', 'img__penguin');
+  uploadImg.setAttribute('alt', 'an image of member');
 
   let p = document.createElement('p');
 
@@ -179,7 +180,7 @@ function validateCEmail(address) {
     isValidEmail = false;
   }
   checkedemail.innerHTML = cemailinput.value + validornot;
- return isValidEmail;
+  return isValidEmail;
 }
 
 // check length of work request which is set above
@@ -219,7 +220,7 @@ function generateWRDescription(wrArray) {
   // confirmedrequest.innerHTML = requestDetails;
   console.dir(wrArray);
   const ulelement = document.createElement('ul');
-  ulelement.style.listStyleType= "none";
+  ulelement.style.listStyleType = 'none';
   console.log(ulelement);
   wrArray.forEach((element) => {
     console.log(element);
@@ -230,7 +231,6 @@ function generateWRDescription(wrArray) {
   });
   return ulelement;
 }
-
 
 // jump link
 
